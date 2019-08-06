@@ -12,10 +12,10 @@
     - CSS로 미리 작업해 `Class`통해 색상 먹이도록 작업
 
 * 페이지 나누기
-    - 메인
-    - 총학생회 소개
-    - 총학생회 소식
-    - 규정집 / 자료집
-    - 편의정보
+    - 메인(`main`)
+    - 총학생회 소개(`instructions`)
+    - 총학생회 소식(`news`)
+    - 규정집 / 자료집(`rules`)
+    - 편의정보(`informations`)
 * 페이지 구성
-    navbar + contents + footer    
+    - navbar + contents + footer    

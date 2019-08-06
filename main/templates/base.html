@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  {% load static %}
+  <link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}">
+  <title>{% block title %}{% endblock %}</title>
+</head>
+<body>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <a class="navbar-brand" href="#">
+        <img src="/docs/4.3/assets/brand/bootstrap-solid.svg" width="30" height="30" class="d-inline-block align-top" alt="">
+        경북대학교 총학생회
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="#">총학생회 소개</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">총학생회 소식</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">규정집 / 자료집</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">편의정보</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  {% block contents %}
+  {% endblock %}
+  <footer id="footer">
+    <div class="container">
+        <div class="info">
+            <a href="http://koreastudent.kr/bbs/content.php?co_id=provision" target="_blank">이용약관</a>
+            <span class="space">|</span>
+            <a href="http://koreastudent.kr/bbs/content.php?co_id=privacy" target="_blank">개인정보취급방침</a>
+            <span class="space">|</span>
+            <span>메일주소무단수집거부</span>
+        </div>
+        <p class="company">경북대학교 총학생회</p>
+        <div class="address">
+            <span>대구광역시 북구 산격3동(대학로80) 경북대학교 복지관 3층 총학생회실</span>
+            <span class="space">|</span>
+            <a href="tel:0539506961">Tel: 053-950-6961</a>
+            <span class="space">|</span>
+            <a href="mailto:knuch2019@gmail.com">Email: knuch2019@gmail.com</a>
+        </div>
+        <div class="copyright">
+            <span>copyright © 경북대학교 총학생회, All Rights Reserved</span>
+            <span class="space">|</span>
+            <span>제작: 경북대 IT대학 동아리 해달</span>
+            <span class="space">|</span>
+            <span>기획: 최강민, 조영광</span>
+            <span class="space">|</span>
+            <span>제작: 최강민, 김주원, 이준병, 신준철</span>
+        </div>
+    </div>
+  </footer>
+  <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+</body>
+</html>
