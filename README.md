@@ -18,4 +18,29 @@
     - 규정집 / 자료집(`rules`)
     - 편의정보(`informations`)
 * 페이지 구성
-    - navbar + contents + footer    
+    - navbar + contents + footer   
+    
+## 2차 회의
+ * 서버
+    1. 본부 서버 사용
+    2. 총학 서버 사용
+    3. 아마존 서버 사용
+ 
+ * 로그인  
+    - 로그인은 일반 학우들은 하지 못하고 총학이랑 단대만 할 수 있도록
+ 
+ * 게시판
+    - 회장단 / 중집위(희열임원들) / 중운위
+    - 중집위 게시판 내에 국별 게시판
+    - 중운위 게시판 내에 단대별 게시판 만들면 될 듯
+    - 상주위 총동연 게시판은 고민 중
+ 
+ * 설문조사
+    - [구글폼](https://forms.gle/ZEe36SAasaK7ANfx7) 완성되면 목요일 밤에 게시
+    
+ * 다음 회의
+    - 8/23 10:30 AM
+
+![SNS 카드 이미지](img/cardImage.jpg)
+![instagram](img/instagram.jpeg)
+![facebook](img/facebook.jpeg)
