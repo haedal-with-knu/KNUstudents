@@ -44,3 +44,25 @@
 ![SNS 카드 이미지](img/cardImage.jpg)
 ![instagram](img/instagram.jpeg)
 ![facebook](img/facebook.jpeg)
+
+## 개발 이슈
+* 경북대 총학생회 메뉴 수정
+    
+    메인(`main`)
+    
+    총학생회 소개(`instructions`)
+    - 역대 총학생회
+    - 총학생회장단 인사
+    - 총학생회 조직도
+    
+    중앙집행위원회(`excution`)
+    - 국별 소개
+    - 게시판
+    
+    중앙운영위원회(`operation`)
+    - 단위별 소개
+    - 게시판
+    
+    자료실(`information`)
+    - 회칙
+    - 안건지/회의록
