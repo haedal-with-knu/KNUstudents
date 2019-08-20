@@ -5,5 +5,7 @@ from .views import *
 app_name = 'instructions'
 
 urlpatterns=[
-    path('instruction/')
+    path('', intro, name='intro'),
+    path('depart/', depart, name='depart'),
+    path('history/', depart, name='history'),
 ]

@@ -4,6 +4,3 @@ from .views import *
 
 app_name = 'informations'
 
-urlpatterns=[
-    path('informations/',)
-]
