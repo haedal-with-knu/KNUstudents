@@ -6,8 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   {% load static %}
+<<<<<<< HEAD
+  <link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}">
+  <link rel="shortcut icon" href="{% static 'main/favicon.txt' %}">
+  <link rel="stylesheet"  href="{% static 'main/mod.css' %}">
+=======
   <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
   <link rel="shortcut icon" href="{% static 'favicon.txt' %}">
+>>>>>>> upstream/master
   <title>{% block title %}{% endblock %}</title>
   <script>
 
@@ -38,12 +44,11 @@
             <h2>메인메뉴</h2>
             <ul id="gnb_1dul">
                 <li class="gnb_1dli" style="z-index:999">
-                    <a href="#" target="_self" class="gnb_1da text-white">총학생회 소개</a>
+                    <a href="/instructions/" target="_self" class="gnb_1da text-white">총학생회 소개</a>
                     <ul class="gnb_2dul">
-                        <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da ">총학생회 소개</a></li>
-                        <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da ">- 역대 총학생회</a></li>
-                        <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da ">- 총학생회장단 인사</a></li>
-                        <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da ">- 총학생회 조직도</a></li>
+                        <li class="gnb_2dli"><a href="/instructions/" target="_self" class="gnb_2da ">- 총학생회장단 인사</a></li>
+                        <li class="gnb_2dli"><a href="/instructions/depart/" target="_self" class="gnb_2da ">- 총학생회 조직도</a></li>
+                        <li class="gnb_2dli"><a href="/instructions/history/" target="_self" class="gnb_2da ">- 역대 총학생회</a></li>
                         <!--<li class="gnb_2dli"><a href="/bbs/stu_department_edu.php" target="_self" class="gnb_2da inner-menu">- 교육정책국</a></li>-->
                         <!--<li class="gnb_2dli"><a href="/bbs/stu_department_fin.php" target="_self" class="gnb_2da inner-menu">- 재정사무국</a></li>-->
                         <!--<li class="gnb_2dli"><a href="/bbs/stu_department_cul.php" target="_self" class="gnb_2da inner-menu">- 문화기획국</a></li>-->

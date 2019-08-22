@@ -1,0 +1,84 @@
+{% extends 'base.html' %}
+{% block title %}역대 총학생회 | 경북대학교 총학생회{% endblock %}
+
+{% block contents %}
+    <div id="wrapper">
+        <div id="container">
+            <div class="side-menu">
+                    <p class="main-title">총학생회 소개</p>
+                    <ul class="menu">
+                        <li>
+                            <a class=" " href="/instructions/">총학생회장단 인사</a>
+                        </li>
+                        <li>
+                            <a class=" " href="/instructions/depart/">총학생회 조직도</a>
+                        </li>
+                        <li>
+                            <a class="current" href="#">역대 총학생회</a>
+                        </li>
+                    </ul>
+                </div>
+
+            <div class="depart">
+                <h2 id="container_title">역대 총학생회</h2>
+                <span class="path">홈 > 총학생회 소개 > 역대 총학생회</span>
+                <div class="content" style="width:100%">
+                    <input type="hidden" name="bo_table" value="report">
+                    <input type="hidden" name="sfl" value>
+                    <input type="hidden" name="stx" value>
+                    <input type="hidden" name="spt" value>
+                    <input type="hidden" name="sca" value>
+                    <input type="hidden" name="sst" value="we_datetime">
+                    <input type="hidden" name="sod" value="desc">
+                    <input type="hidden" name="page" value="1">
+                    <input type="hidden" name="sw" value>
+                    <div class="tb1_head01 tb1_wrap">
+                        <table>
+                            <thead>
+                                <tr>
+                                    <th scope="col">번호</th>
+                                    <th scope="col">제목</th>
+                                    <th scope="col">글쓴이</th>
+                                    <th scope="col">날짜</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {% for a in object_list %}
+                                    <tr>
+                                        <td class="td_num">
+                                            {{forloop.counter}}
+                                        </td>
+                                        <td class="td_subject">
+                                            <a href="#">{{a.postname}}</a>
+                                        </td>
+                                        <td class="td_name sv_use">
+                                            <a href="#">총학생회</a>
+                                        </td>
+                                        <td class="td_date">
+                                            <a href="#">{{a.updated|date:"Y-m-d"}}</a>
+                                        </td>
+                                    </tr>
+                                {% endfor %}
+                            </tbody>
+                        </table>
+                    </div>
+                    <nav class="pg_wrap">
+                        <span class="pg">
+                            <div class="bootstrap2">
+                                <div class="pagination">
+                                    <ul class="pagination justify-content-center pagination-sm">
+                                        {% for object in page_obj.paginator.page_range %}
+                                        <li class="page-item {% if page_obj.number == forloop.counter %} disabled {% endif %}">
+                                            <a class="page-link" href="{{request.path}}?page={{forloop.counter}}">{{forloop.counter}}</a>
+                                        </li>
+                                        {% endfor %}
+                                    </ul>
+                                </div>
+                            </div>
+                        </span>
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </div>
+{% endblock %}
