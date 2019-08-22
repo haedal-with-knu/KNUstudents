@@ -11,6 +11,9 @@ class Post(models.Model):
     text = models.TextField(blank=True)
     updated = models.DateTimeField(auto_now_add=True)
 
+    class Meta:
+        ordering = ['-updated']
+
     def __str__(self):
         return self.postname
     def get_absolute_url(self):

@@ -32,9 +32,9 @@
                                 {% for a in object_list %}
                                     <tr class="">
                                         <td class="td_num">{{a.id}}</td>
-                                        <td class="td_subject"><a href="#">{{a.postname}}</a></td>
-                                        <td class="td_name sv_use"><a href="#">{{a.author}}</a></td>
-                                        <td class="td_date"><a href="#">{{a.updated|date:"Y-m-d"}}</a></td>
+                                        <td class="td_subject"><a href="{% url 'instructions:his_detail' a.id %}">{{a.postname}}</a></td>
+                                        <td class="td_name sv_use"><span class="sv_member">{{a.author}}</span></td>
+                                        <td class="td_date">{{a.updated|date:"y-m-d"}}</a></td>
                                     </tr>
                                 {% endfor %}
                             </tbody>
