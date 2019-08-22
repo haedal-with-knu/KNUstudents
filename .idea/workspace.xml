@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="07f4aac5-22cd-4786-be67-5dde6ff3023c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/informations/migrations/0001_initial.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informations/migrations/0002_auto_20190821_0120.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informations/migrations/0003_auto_20190822_0451.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informations/static/informations/favicon.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informations/static/informations/jquery.menu.mobile.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informations/static/informations/logo_w2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informations/static/informations/picture_logo.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informations/static/informations/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informations/templates/informations/category.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/informations/templates/informations/detail.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/info_file/2019/08/20/haedal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/info_file/2019/08/21/haedal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/info_file/2019/08/22/haedal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/info_file/2019/08/22/picture.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/info_photo/2019/08/20/haedal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/info_photo/2019/08/21/haedal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/info_photo/2019/08/22/haedal.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/media/info_photo/2019/08/22/picture.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/KNUstudents.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/KNUstudents.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/config/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informations/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/informations/admin.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informations/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/informations/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informations/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/informations/urls.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/informations/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/informations/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/style.css" beforeDir="false" afterPath="$PROJECT_DIR$/static/style.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/templates/base.html" beforeDir="false" afterPath="$PROJECT_DIR$/templates/base.html" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>logo-img</find>
+      <find>#8b0029</find>
+      <find>#e60000</find>
+      <find>bg</find>
+      <find>logo</find>
+      <find>static</find>
+      <find>BASE</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IgnoredFileRootStore">
+    <option name="generatedRoots">
+      <set>
+        <option value="C:\Users\JB\PycharmProjects\KNUstudents\.idea" />
+      </set>
+    </option>
+  </component>
+  <component name="ProjectId" id="1Pg8LnYvca41roIFDsYvR3MXaOY" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/img" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\JB\PycharmProjects\KNUstudents\instructions\static\instructions" />
+      <recent name="C:\Users\JB\PycharmProjects\KNUstudents\instructions\img" />
+      <recent name="C:\Users\JB\PycharmProjects\KNUstudents\img" />
+      <recent name="C:\Users\JB\PycharmProjects\KNUstudents\static" />
+      <recent name="$PROJECT_DIR$/main/static/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\JB\PycharmProjects\KNUstudents\img" />
+      <recent name="C:\Users\JB\PycharmProjects\KNUstudents\instructions\img" />
+      <recent name="C:\Users\JB\PycharmProjects\KNUstudents\static" />
+      <recent name="C:\Users\JB\PycharmProjects\KNUstudents\main\static\main" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="07f4aac5-22cd-4786-be67-5dde6ff3023c" name="Default Changelist" comment="" />
+      <created>1565660422658</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1565660422658</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>

@@ -6,9 +6,14 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   {% load static %}
+<<<<<<< HEAD
   <link rel="stylesheet" type="text/css" href="{% static 'main/style.css' %}">
   <link rel="shortcut icon" href="{% static 'main/favicon.txt' %}">
   <link rel="stylesheet"  href="{% static 'main/mod.css' %}">
+=======
+  <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
+  <link rel="shortcut icon" href="{% static 'favicon.txt' %}">
+>>>>>>> upstream/master
   <title>{% block title %}{% endblock %}</title>
   <script>
 
@@ -67,10 +72,10 @@
                     </ul>
                 </li>
                 <li class="gnb_1dli" style="z-index:996">
-                    <a href="#" target="_self" class="gnb_1da text-white">자료실</a>
+                    <a href="{% url 'informations:category_all' 'bylaw' %}" target="_self" class="gnb_1da text-white">자료실</a>
                     <ul class="gnb_2dul">
-                        <li class="gnb_2dli"><a href="#" target="_blank" class="gnb_2da ">- 회칙</a></li>
-                        <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da ">- 안건지/회의록</a></li>
+                        <li class="gnb_2dli"><a href="{% url 'informations:category_all' 'bylaw' %}" target="_blank" class="gnb_2da ">- 회칙</a></li>
+                        <li class="gnb_2dli"><a href="{% url 'informations:category_all' 'minutes' %}" target="_self" class="gnb_2da ">- 안건지/회의록</a></li>
                     </ul>
                 </li>
                 <!--<li class="gnb_1dli" style="z-index:995">-->
