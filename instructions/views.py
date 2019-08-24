@@ -12,3 +12,7 @@ class History(ListView):
     model = Post
     template_name = 'instructions/history.html'
     paginate_by = 6
+
+def his_detail(request, id):
+    post = Post.objects.get(id=id)
+    return render(request, 'instructions/his_detail.html', {'post' : post})
