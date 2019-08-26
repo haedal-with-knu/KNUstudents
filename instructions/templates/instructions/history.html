@@ -46,9 +46,11 @@
                                 <div class="pagination">
                                     <ul class="pagination justify-content-center pagination-sm">
                                         {% for object in page_obj.paginator.page_range %}
-                                        <li class="page-item {% if page_obj.number == forloop.counter %} disabled {% endif %}">
-                                            <a class="page-link" href="{{request.path}}?page={{forloop.counter}}">{{forloop.counter}}</a>
-                                        </li>
+                                            {% if page_obj.number == forloop.counter %}
+                                            <li><a class = "cur_page"><span class="sound_only">열린</span>{{ forloop.counter }}<span class="sound_only">페이지</span></a></li>
+                                            {% else %}
+                                            <li><a class="page-link" href="{{request.path}}?page={{forloop.counter}}">{{forloop.counter}}</a></li>
+                                            {% endif %}
                                         {% endfor %}
                                     </ul>
                                 </div>
