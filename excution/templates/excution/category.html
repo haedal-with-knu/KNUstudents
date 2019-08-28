@@ -1,0 +1,64 @@
+{% extends 'base.html' %}
+{% block title %}중앙집행위원회 | {{ category }}{% endblock %}
+{% block contents %}
+<div id="wrapper">
+    <div id="container">
+        <div class="side-menu">
+            <p class="main-title">중앙집행위원회</p>
+            <ul class="menu">
+                        <li><a class=" " href="{% url 'excution:category_all' 'introduction' %}">국별 소개</a></li>
+                        <li><a class="inner-menu" href="#">-가</a></li>
+                        <li><a class="inner-menu" href="#">-나</a></li>
+                        <li><a class="inner-menu" href="#">-다</a></li>
+                        <li><a class="inner-menu" href="#">-라</a></li>
+                        <li><a class="inner-menu" href="#">-마</a></li>
+                        <li><a class=" " href="{% url 'excution:category_all' 'board' %}">게시판</a></li>
+            </ul>
+        </div>
+        <div class="board-list">
+            <h2 id="container_title">{{ category }}<span class="sound_only"> 목록</span></h2>
+            <span class="path">홈 > 중앙집행위원회 > {{category}}</span>
+            <!-- 게시판 카테고리 시작 -->
+            <nav id="bo_cate">
+                <h2> 단위 목록</h2>
+                <ul id="bo_cate_ul">
+                    <li><a href="#" id="bo_cate_on">가</a></li>
+                    <li><a href="#" id="bo_cate_on">나</a></li>
+                    <li><a href="#" id="bo_cate_on">다</a></li>
+                    <li><a href="#" id="bo_cate_on">라</a></li>
+                    <li><a href="#" id="bo_cate_on">마</a></li>
+                </ul>
+            </nav>
+            <!--게시판 카테고리 끝 -->
+
+            <div class="tbl_head01 tbl_wrap">
+            <table>
+            <caption> {{category}} 목록</caption>
+                <thead>
+                    <tr>
+                        <th scope="col">번호</th>
+                        <th scope="col">제목</th>
+                        <th scope="col">글쓴이</th>
+                        <th scope="col">날짜</th>
+                    </tr>
+                </thead>
+                <tbody>
+                {% for post in posts %}
+                <tr class="">
+                    <td class="td_num">{{post.id}}</td>
+                    <td class="td_subject"><a href="{% url 'excution:post_detail' post.category post.id %}">{{post.title}}</a></td>
+                    <td class="td_name sv_use"><span class="sv_member">{{post.author}}</span></td>
+                    <td class="td_date">{{post.created|date:"m-d"}}</td>
+                </tr>
+                {% endfor %}
+                </tbody>
+            </table>
+        </div>
+
+
+
+
+
+    </div>
+</div>
+{% endblock %}
