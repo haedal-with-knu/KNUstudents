@@ -4,10 +4,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    {% block scrpt %}
+    {% endblock %}
+
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
   {% load static %}
+  <link rel="stylesheet"  href="{% static 'mod.css' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
   <link rel="shortcut icon" href="{% static 'favicon.txt' %}">
+    {% block extrahead %}
+    {% endblock %}
   <title>{% block title %}{% endblock %}</title>
   <script>
 
@@ -38,12 +44,11 @@
             <h2>메인메뉴</h2>
             <ul id="gnb_1dul">
                 <li class="gnb_1dli" style="z-index:999">
-                    <a href="#" target="_self" class="gnb_1da text-white">총학생회 소개</a>
+                    <a href="/instructions/" target="_self" class="gnb_1da text-white">총학생회 소개</a>
                     <ul class="gnb_2dul">
-                        <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da ">총학생회 소개</a></li>
-                        <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da ">- 역대 총학생회</a></li>
-                        <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da ">- 총학생회장단 인사</a></li>
-                        <li class="gnb_2dli"><a href="#" target="_self" class="gnb_2da ">- 총학생회 조직도</a></li>
+                        <li class="gnb_2dli"><a href="/instructions/" target="_self" class="gnb_2da ">- 총학생회장단 인사</a></li>
+                        <li class="gnb_2dli"><a href="/instructions/depart/" target="_self" class="gnb_2da ">- 총학생회 조직도</a></li>
+                        <li class="gnb_2dli"><a href="/instructions/history/" target="_self" class="gnb_2da ">- 역대 총학생회</a></li>
                         <!--<li class="gnb_2dli"><a href="/bbs/stu_department_edu.php" target="_self" class="gnb_2da inner-menu">- 교육정책국</a></li>-->
                         <!--<li class="gnb_2dli"><a href="/bbs/stu_department_fin.php" target="_self" class="gnb_2da inner-menu">- 재정사무국</a></li>-->
                         <!--<li class="gnb_2dli"><a href="/bbs/stu_department_cul.php" target="_self" class="gnb_2da inner-menu">- 문화기획국</a></li>-->
@@ -53,14 +58,22 @@
                     </ul>
                 </li>
                 <li class="gnb_1dli" style="z-index:998">
+<<<<<<< HEAD
                      <a href="{% url 'excution:category_all' 'introduction' %}" target="_self" class="gnb_1da text-white">중앙집행위원회</a>
+=======
+                    <a href="/excution/" target="_self" class="gnb_1da text-white">중앙집행위원회</a>
+>>>>>>> 8f4c01041296d17a87f7a578cb06ca27bb83e12d
                     <ul class="gnb_2dul">
                         <li class="gnb_2dli"><a href="{% url 'excution:category_all' 'introduction' %}" target="_self" class="gnb_2da ">- 국별 소개</a></li>
                         <li class="gnb_2dli"><a href="{% url 'excution:category_all' 'board' %}" target="_self" class="gnb_2da ">- 게시판</a></li>
                     </ul>
                 </li>
                 <li class="gnb_1dli" style="z-index:997">
+<<<<<<< HEAD
                     <a href="{% url 'operation:category_all' 'introduction' %}" target="_self" class="gnb_1da text-white">중앙운영위원회</a>
+=======
+                    <a href="/operation/" target="_self" class="gnb_1da text-white">중앙운영위원회</a>
+>>>>>>> 8f4c01041296d17a87f7a578cb06ca27bb83e12d
                     <ul class="gnb_2dul">
                         <li class="gnb_2dli"><a href="{% url 'operation:category_all' 'introduction' %}" target="_self" class="gnb_2da ">- 단위별 소개</a></li>
                         <li class="gnb_2dli"><a href="{% url 'operation:category_all' 'board' %}" target="_self" class="gnb_2da ">- 게시판</a></li>
