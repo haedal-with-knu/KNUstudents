@@ -5,7 +5,7 @@ from .models import *
 
 def category_all(request,category):
     if (category=='introduction'):
-        category='국별 소개'
+        category='단위별 소개'
         posts = Post_introduction.objects.all()
     else:
         category='게시판'
@@ -21,6 +21,6 @@ def post_detail(request, category, id):
         cat = '게시판'
         post = Post_board.objects.get(category=category, id=id)
     else:
-        cat = '국별 소개'
+        cat = '단위별 소개'
         post = Post_introduction.objects.get(category=category, id=id)
     return render(request, 'operation/detail.html', {'post' : post, 'cat':cat})

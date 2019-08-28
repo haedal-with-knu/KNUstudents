@@ -106,7 +106,7 @@ a:hover, a:focus, a:active {color:#000;text-decoration:underline}
 #gnb_empty a {text-decoration:underline}
 
 /* 중간 레이아웃 */
-#wrapper {z-index:5;margin:0 auto;width:970px;border-right:1px solid #dde4e9;border-left:1px solid #dde4e9;zoom:1}
+#wrapper {z-index:5;margin:0 auto;width:unset;border-right:1px solid #dde4e9;border-left:1px solid #dde4e9;zoom:1}
 #wrapper:after {display:block;visibility:hidden;clear:both;content:""}
 
 #aside {float:right;margin:0 0 0 -1px;width:210px;border-left:1px solid #dde4e9;background:#fff}
@@ -393,7 +393,7 @@ html, body {
   height: 58px;
   margin: 0;
   padding: 12px 0 0 0;
-  font-size: 18px;
+  font-size: 16px;
   font-weight: 400;
   color: #212121;
   background-image: none;
