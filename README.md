@@ -66,3 +66,7 @@
     자료실(`information`)
     - 회칙
     - 안건지/회의록
+
+
+## 정보전산원 공문
+![img/informationInstituteOfficialPaper.jpeg](img/informationInstituteOfficialPaper.jpeg)
