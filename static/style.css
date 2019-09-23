@@ -318,7 +318,7 @@ html, body {
   height: 34px;
   margin: 0;
   padding: 0;
-  background-color: #d6cabc;
+  background-color: #cccccc;
   border-bottom: 1px solid #cabeb0;
 }
 #header > .container {
@@ -329,7 +329,7 @@ html, body {
 #header > .container > #tnb > li > a {
   height: 34px;
   font-size: 13px;
-  color: #7e6d59;
+  color: #797977;
   padding-top:2px;
 }
 

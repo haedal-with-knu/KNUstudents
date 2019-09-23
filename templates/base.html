@@ -12,6 +12,7 @@
   <link rel="stylesheet"  href="{% static 'mod.css' %}">
   <link rel="stylesheet" type="text/css" href="{% static 'style.css' %}">
   <link rel="shortcut icon" href="{% static 'favicon.txt' %}">
+
     {% block extrahead %}
     {% endblock %}
   <title>{% block title %}{% endblock %}</title>
@@ -29,12 +30,15 @@
     var g5_cookie_domain = "";
 
   </script>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css">
 </head>
 <body>
   <div id="header">
       <div class="container">
           <ul id="tnb">
-              <!-- 여기 넣으면 됨     -->
+              <li><a href="https://facebook.com/knuchonghak/"><i class="fab fa-facebook-f fa-lg"></i></a></li>
+              <li><a href="https://instagram.com/knu_ch?igshid=rncxyduaxum5"><i class="fab fa-instagram fa-lg"></i></a></li>
+              <li><a href="http://pf.kakao.com/_mVXvj"><i class="far fa-comment-dots fa-lg"></i></a></li>
           </ul>
       </div>
   </div>
