@@ -13,9 +13,6 @@ def category_all(request,category):
     return render(request, 'excution/category.html', {'posts': posts, 'category':category})
 
 
-
-
-
 def post_detail(request, category, id):
     if category == 'board':
         cat = '게시판'
@@ -24,3 +21,21 @@ def post_detail(request, category, id):
         cat = '국별 소개'
         post = Post_introduction.objects.get(category=category, id=id)
     return render(request, 'excution/detail.html', {'post' : post, 'cat':cat})
+
+def nurse(request):
+    return render(request, 'excution/nurse.html')
+def ksd(request):
+    return render(request, 'excution/ksd.html')
+def engineering(request):
+    return render(request, 'excution/engineering.html')
+def scitech(request):
+    return render(request, 'excution/scitech.html')
+def teacher(request):
+    return render(request, 'excution/teacher.html')
+def lifesci(request):
+    return render(request, 'excution/lifesci.html')
+def freemajor(request):
+    return render(request, 'excution/freemajor.html')
+def administration(request):
+    return render(request, 'excution/administration.html')
+

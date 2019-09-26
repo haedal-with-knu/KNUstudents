@@ -1,0 +1,76 @@
+{% extends 'base.html' %}
+{% block title %}중앙집행위원회 | 과학기술대학{% endblock %}
+
+{% block contents %}
+    <div id="wrapper">
+        <div id="container">
+
+                <div class="side-menu">
+                    <p class="main-title">중앙집행위원회</p>
+                    <ul class="menu">
+                        <li>
+                            <a class=" " href="{% url 'excution:category_all' 'introduction' %}">국별 소개</a>
+                        </li>
+                        <li>
+                            <a class="inner-menu" href="/excution/introduction/nurse/">-간호대학</a>
+                        </li>
+                        <li>
+                            <a class="inner-menu" href="/excution/introduction/ksd/">-경상대학</a>
+                        </li>
+                        <li>
+                            <a class="inner-menu" href="/excution/introduction/engineering/">-공과대학</a>
+                        </li>
+                        <li>
+                            <a class="inner-menu" href="/excution/introduction/scitech/">-과학기술대학</a>
+                        </li>
+                        <li>
+                            <a class="inner-menu" href="/excution/introduction/teacher/">-사범대학</a>
+                        </li>
+                        <li>
+                            <a class="inner-menu" href="/excution/introduction/lifesci/">-생과대</a>
+                        </li>
+                        <li>
+                            <a class="inner-menu" href="/excution/introduction/freemajor/">-자율전공학부</a>
+                        </li>
+                        <li>
+                            <a class="inner-menu" href="/excution/introduction/administration/">-행정학부</a>
+                        </li>
+                        <li>
+                            <a class=" " href="{% url 'excution:category_all' 'board' %}">게시판</a>
+                        </li>
+            </ul>
+                </div>
+
+
+                <div class="intro">
+                    <h2 id="container_title">과학기술대학 소개</h2>
+                    <span class="path">홈 > 중앙집행위원회 > 과학기술대학</span>
+                    {% load static %}
+                    <div class="content">
+                        <p class="sub-title" style="text-align: center;">
+                            <span style="font-size: 23px;">[상:상]</span>
+                        </p>
+                        <p>
+                            <span stlye="font-size: 20px;">경북대학교 제 7대 과학기술대학 상:상 학생회는 과학기술대학 학생들로 구성되어 있습니다.</span>
+                        </p>
+                        <p>
+                            <span stlye="font-size: 20px;">'상상 그 이상, 현실이 되는 상상' 이라는 슬로건을 가지고 학생들이 상상하고 원하는 학교 그 이상을 실현시키기 위해 노력하고 있습니다.​</span>
+                        </p>
+                        <p>
+                            <span stlye="font-size: 20px;">​저희 집행부는 학생들의 의견을 최대한 수렴하고 그 의견들을 참고해 학생회를 운영하고 있습니다.</span>
+                        </p>
+                        <p>
+                            <span stlye="font-size: 20px;">많은 학생들이 바라고, 만족할 수 있는 과학기술대학이 될 수 있도록 저희 상:상 학생회는 항상 최선을 다하겠습니다.</span>
+                        </p>
+                        <p>
+                            <span stlye="font-size: 20px;"><a href="https://www.facebook.com/2019KNUScienceTechnology/">과학기술대학 페이스북 바로가기</a></span>
+                        </p>
+                        <p><img src="{% static 'scitech.png' %}" style="width:100%;"></p>
+
+
+                </div>
+
+        </div>
+
+    </div>
+{% endblock %}
