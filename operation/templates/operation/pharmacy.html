@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-{% block title %}중앙운영위원회 | {{ category }}{% endblock %}
+{% block title %}중앙운영위원회 | 약학대학{% endblock %}
 {% block contents %}
 <div id="wrapper">
     <div id="container">
@@ -33,12 +33,20 @@
             </ul>
         </div>
         <div class="depart">
-                <h2 id="container_title">단위별 소개</h2>
-                <span class="path">홈 > 중앙운영위원회 > 단위별 소개</span>
+                <h2 id="container_title">약학대학 소개</h2>
+                <span class="path">홈 > 중앙운영위원회 > 약학대학 소개</span>
                 {% load static %}
                 <div class="content">
-                    <p><img src="{% static 'operation_main.png' %}" style="width:100%;"></p>
-                </div>
+                    <p class="sub-title" style="text-align: center;">
+                        <span style="font-size: 23px;">제목</span>
+                    </p>
+                    <p>
+                        <span stlye="font-size: 20px;">내용</span>
+                    </p>
+
+
+
+            </div>
             </div>
 </div>
 {% endblock %}

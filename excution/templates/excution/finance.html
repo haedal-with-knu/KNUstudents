@@ -17,19 +17,22 @@
                         <li><a class=" " href="{% url 'excution:category_all' 'board' %}">게시판</a></li>
             </ul>
         </div>
-        <div class="depart">
-                <h2 id="container_title">국별 소개</h2>
-                <span class="path">홈 > 중앙집행위원회 > 국별 소개</span>
+        <div class="intro">
+                <h2 id="container_title">재정사무국 소개</h2>
+                <span class="path">홈 > 중앙집행위원회 > 재정사무국</span>
                 {% load static %}
                 <div class="content">
-                    <p><img src="{% static 'excution_main.png' %}" style="width:100%;"></p>
-                </div>
+                    <p class="sub-title" style="text-align: center;">
+                        <span style="font-size: 23px;">제목</span>
+                    </p>
+                    <p>
+                        <span stlye="font-size: 20px;">내용</span>
+                    </p>
+                    
+
+
             </div>
 
-
-
-
-
-    </div>
+        </div>
 </div>
 {% endblock %}

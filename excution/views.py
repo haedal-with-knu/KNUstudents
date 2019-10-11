@@ -22,5 +22,18 @@ def post_detail(request, category, id):
         post = Post_introduction.objects.get(category=category, id=id)
     return render(request, 'excution/detail.html', {'post' : post, 'cat':cat})
 
-
+def publicity(request):
+    return render(request, 'excution/publicity.html')
+def rights(request):
+    return render(request, 'excution/rights.html')
+def welfare(request):
+    return render(request, 'excution/welfare.html')
+def culture(request):
+    return render(request, 'excution/culture.html')
+def cooperation(request):
+    return render(request, 'excution/cooperation.html')
+def support(request):
+    return render(request, 'excution/support.html')
+def finance(request):
+    return render(request, 'excution/finance.html')
 
