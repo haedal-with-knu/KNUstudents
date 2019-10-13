@@ -791,6 +791,13 @@ html, body {
   margin: 64px 0 0 0;
   text-align: right;
 }
+#wrapper > #container > div.intro > div.content > p.names {
+  font-size: 15px;
+  font-weight: 700;
+  margin: 64px 0 0 0;
+  text-align: right;
+}
+
 
 #wrapper > #container > div.depart {
   float: right;
